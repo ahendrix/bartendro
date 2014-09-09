@@ -7,6 +7,15 @@ Web services communicate with JSON requests and replies.
 Notes: 
  * There does not appear to be a call to get all available drinks yet.
 
+
+== Object Types ==
+
+=== Drink ===
+
+=== Booze ===
+
+== Service Calls ==
+
 `/ws/booze/match/<str>`
     Get all of the boozes matching `<str>`, where `<str>` can contain SQL wildcards
     An empty `<str>` will return all boozes
